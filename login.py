@@ -5,7 +5,7 @@ from PIL import ImageTk
 def login():
   if usernameEntry.get()=='' or passwordEntry.get()=='':
        messagebox.showerror('Error','Please fill the required fields')
-  elif usernameEntry.get()=='Isha' and passwordEntry.get()=='13':
+  elif usernameEntry.get()=='pass' and passwordEntry.get()=='13':
           messagebox.showinfo('Success','welcome')
           window.destroy()
           import sms
